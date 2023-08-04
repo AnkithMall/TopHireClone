@@ -1,0 +1,107 @@
+
+#basic-navbar-nav {
+    color: rgb(0, 128, 255);
+    font-weight: bold;
+}
+#hero-container {
+    padding-top: 100px;
+}
+.hero {
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+    background-image: url(https://d383au3bye3rv1.cloudfront.net/static/images/optimized/sky.jpg);
+}
+#hero-btn:hover {
+    background-color:white;
+    color: #007bff ;
+}
+.services-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: .1s;
+    /* padding-bottom: 2px; */
+}
+.services-icon:hover {
+    border: 2px solid;
+    border-color: #007bff;
+}
+.company-logo-list {
+    background-image: url(https://d383au3bye3rv1.cloudfront.net/static/dist/logo-map-mobile-ACNY67Z7.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 576px) {
+    .company-logo-list {
+      /* Set a different height for smaller screens */
+      height: 280px;
+    }
+  }
+  
+  /* Media query for even smaller screens, e.g., phones */
+  @media (max-width: 320px) {
+    .company-logo-list {
+      /* Set a different height for even smaller screens */
+      height: 150px;
+    }
+  }
+
+.stylishLine {
+    width: 15%;
+    height: 5px;
+    margin-right: auto;
+    margin-bottom: -10px;
+    background: linear-gradient(to right,#39a7f4 10%,#39a7f4 90%);
+    border-radius: 4px;
+}
+ul {
+    list-style: none;
+}
+
+.candidate .image img {
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 50px;
+}
+.candidate {
+    margin-top: 10px;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+.company img {
+    width: 118px;
+    height: 40px;
+}
+
+footer {
+    background: linear-gradient(30deg,#091e34 0%,#091e34 100%);
+    color: #fff;
+    padding-top: 30px;
+}
+footer .logo img {
+    width: 100px;
+}
+.mission {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #8493a2;
+    max-width: 80%;
+    line-height: normal;
+}
+footer ul {
+    padding-left: 0;
+    line-height: 1.7;
+}
+.footer-copyright {
+    background: linear-gradient(30deg,#081b2f 0%,#041c35 100%);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
